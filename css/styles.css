@@ -160,10 +160,12 @@ body {
   padding: 200px 0;
 }
 
-.advantage .title {
+.advantage-list .title {
   color: #212121;
 }
+
 .advantage-list {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -171,8 +173,7 @@ body {
 }
 
 .advantage-item {
-  margin-left: -30px;
-
+  margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
@@ -193,7 +194,7 @@ body {
   line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .section-title-list {
@@ -224,10 +225,9 @@ body {
   vertical-align: Top;
   padding-top: 10px;
 }
+
 .pictures {
   list-style: none;
-}
-.pictures {
   max-width: 100%;
   height: auto;
   display: flex;
@@ -267,10 +267,9 @@ body {
   padding: 60px;
 }
 
-.address {
-  margin-top: 20px;
+.footer-title {
+  margin-bottom: 20px;
 }
-
 .footer .studio {
   color: #ffffff;
   font-family: raleway, cursive;
@@ -291,6 +290,7 @@ body {
   background-color: #2f303a;
   text-decoration: none;
   margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .address .list1 .contact1 {
@@ -301,6 +301,7 @@ body {
   text-decoration: none;
   font-style: normal;
   margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .address .list1 .contact1:hover,
@@ -332,13 +333,14 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
-  margin: 94px 0px;
+  padding: 94px 0px;
 }
 
 .list {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .list .button-primary:hover,
@@ -359,7 +361,6 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
   padding: 6px 22px;
-  margin-bottom: 50px;
 }
 
 .list .button-primary {
@@ -375,7 +376,6 @@ body {
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
-  margin-bottom: 50px;
 }
 
 .portfolio-item:not(:last-child) {
