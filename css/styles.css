@@ -188,13 +188,17 @@ body {
 .about-list {
   background-color: #f5f4fa;
   padding-bottom: 94px;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.list-interval {
+  padding-right: 30px;
+}
 .team-container {
   background-color: #f5f4fa;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-title {
@@ -206,6 +210,7 @@ body {
   text-transform: uppercase;
   padding-bottom: 50px;
   padding-top: 94px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-title-list {
@@ -217,6 +222,7 @@ body {
   background-color: var(--background-accent-color);
   padding-bottom: 10px;
   padding-top: 30px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section .career {
