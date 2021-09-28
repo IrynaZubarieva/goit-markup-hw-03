@@ -102,6 +102,9 @@ body {
 .auth-nav .link:focus {
   color: #2196f3;
 }
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 
 .page-header-container {
   display: flex;
@@ -256,9 +259,8 @@ body {
   margin-right: 30px;
 }
 
-.pictures-item:nth-last-child(3n + 1) {
+.pictures:nth-last-child(3n + 1) {
   margin-right: 0px;
-  margin-right: 30px;
 }
 
 .img {
@@ -353,6 +355,10 @@ body {
 .site-nav .link2 {
   color: #2196f3;
   text-decoration: none;
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
 }
 
 .hero-portfolio-list {
