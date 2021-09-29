@@ -183,7 +183,7 @@ body {
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
-.advantage-item:not (:first-child) {
+.advantage-item:not(:first-child) {
   margin-left: 0px;
 }
 
@@ -191,6 +191,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .section-people {
   background-color: #f5f4fa;
 }
@@ -207,7 +208,7 @@ body {
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
 
-.list-interval :nth-last-child(4n + 1) {
+.list-interval:nth-last-child(4n + 1) {
   margin-right: 0px;
 }
 
@@ -253,8 +254,6 @@ body {
 
 .pictures {
   list-style: none;
-  max-width: 100%;
-  height: auto;
   display: flex;
   margin-right: 30px;
 }
@@ -266,7 +265,7 @@ body {
 .img {
   max-width: 100%;
   height: auto;
-  display: flex;
+  display: block;
 }
 
 .button {
