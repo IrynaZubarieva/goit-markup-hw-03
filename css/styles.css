@@ -72,6 +72,9 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link.current {
@@ -91,11 +94,22 @@ body {
   font-size: 14px;
   line-height: 1.1;
   text-decoration: none;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
 }
 
 .site-nav .link1 {
   color: #2196f3;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
   text-decoration: none;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .auth-nav .link:hover,
@@ -122,12 +136,6 @@ body {
 
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
-}
-
-.site-nav .item {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .auth-nav {
@@ -169,6 +177,12 @@ body {
 
 .advantage-list .title {
   color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
 }
 
 .advantage-list {
@@ -177,6 +191,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin-left: -30px;
+  padding-bottom: 0px;
+  margin-bottom: -94px;
 }
 
 .advantage-item {
@@ -221,9 +237,11 @@ body {
   line-height: 1.2;
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .section-title-list {
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -296,7 +314,7 @@ body {
 
 .footer {
   background-color: #2f303a;
-  padding: 60px;
+  padding: 60px 0;
 }
 
 .footer-title {
@@ -312,7 +330,12 @@ body {
 .list1 {
   list-style: none;
 }
-
+.address-mulo {
+  margin-bottom: 9px;
+}
+.address-mulo1 {
+  margin-bottom: 0px;
+}
 .address .list1 .contact {
   color: #ffffff;
   font-style: normal;
@@ -333,7 +356,7 @@ body {
   text-decoration: none;
   font-style: normal;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 9px;
 }
 
 .address .list1 .contact1:hover,
@@ -376,7 +399,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .list .button-primary:hover,
@@ -460,7 +483,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
 }
 
 .text-list-portfolio {
