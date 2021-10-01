@@ -192,9 +192,10 @@ body {
   justify-content: center;
   margin-left: -30px;
   padding-bottom: 0px;
-  margin-bottom: -94px;
 }
-
+.section-bottom {
+  padding-bottom: 0px;
+}
 .advantage-item {
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
